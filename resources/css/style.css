@@ -1,0 +1,144 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica";
+  line-height: 1.4;
+}
+
+h1,
+h4 {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*Company Header*/
+
+.header {
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.green-header {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 1rem 0 1rem 2rem;
+  align-items: center;
+  top: 1rem;
+}
+
+.green-header span {
+  margin-right: 2rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 16.7rem;
+}
+
+.logo-container img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.headline {
+  position: relative;
+  top: 10rem;
+  width: 24rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  color: black;
+  margin-left: 32.3rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.services-con {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+  height: 8rem;
+  width: 28rem;
+}
+
+.service-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#img1 {
+  width: 3.5rem;
+}
+
+#img2 {
+  width: 5rem;
+}
+
+.service {
+  display: block;
+  color: black;
+  text-align: center;
+}
+
+.messages-con {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto 5rem auto;
+  height: 13.5rem;
+  width: 960px;
+}
+
+.message-header {
+  display: block;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  background-color: cadetblue;
+  color: white;
+  width: 12rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  display: block;
+  color: black;
+  text-align: left;
+  margin-right: 5%;
+  width: 35%
+}
+
+.footer {
+  background-color: azure;
+  color: black;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 4rem 0 4rem 0;
+  align-items: center;
+}
+
+#logo-img {
+  margin-left: 4rem;
+}
