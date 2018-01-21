@@ -38,6 +38,10 @@ h4 {
   top: 1rem;
 }
 
+.green-smallheader {
+  display: none;
+}
+
 .green-header span {
   margin-right: 2rem;
 }
@@ -143,6 +147,11 @@ h4 {
   margin-left: 4rem;
 }
 
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 960px) {
 
   .container {
@@ -155,6 +164,10 @@ h4 {
 
   .green-header {
     top: 0;
+  }
+
+  .green-smallheader {
+    display: none;
   }
 
   .headline {
@@ -173,6 +186,131 @@ h4 {
   .messages-con {
     align-content: center;
     margin: 0 auto 5rem auto;
+  }
+
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .logo-smallcon {
+    display: flex;
+    align-items: center;
+    margin-right: 14rem;
+  }
+
+  .logo-smallcon img {
+    height: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .green-header {
+    display: none;
+  }
+
+  .green-smallheader {
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 1rem 0 1rem 2rem;
+    align-items: center;
+  }
+
+  .headline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+    top: 9rem;
+    margin: auto;
+    background-color: white;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+    color: black;
+  }
+
+  .services-con {
+    align-content: center;
+    margin: 3.77rem auto;
+    height: 24rem;
+    width: 10rem;
+  }
+
+  .service {
+    font-size: 0.77rem;
+    margin-bottom: 0.54rem;
+  }
+
+  .messages-con {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto 5rem auto;
+    height: 15.7rem;
+    width: 99%;
+  }
+
+  .message-header {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    background-color: cadetblue;
+    color: white;
+  }
+
+  .message {
+    font-size: 0.77rem;
+    color: black;
+    text-align: left;
+    width: 95%;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer-container {
+      width: 100%;
+  }
+
+  .logo-container {
+    display: flex;
+  }
+
+  .logo-container span {
+    display: none;
+  }
+
+  .footer {
+    background-color: azure;
+    color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 4rem 0 4rem 0;
+  }
+
+  #logo-img {
+    margin-left: 17rem;
   }
 
 }
