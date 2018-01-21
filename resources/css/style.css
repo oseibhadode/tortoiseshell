@@ -55,11 +55,11 @@ h4 {
 
 .headline {
   position: relative;
-  top: 10rem;
   width: 24rem;
   padding: 1.5rem 5rem;
   background-color: white;
   color: black;
+  margin-top: 10rem;
   margin-left: 32.3rem;
 }
 
@@ -141,4 +141,38 @@ h4 {
 
 #logo-img {
   margin-left: 4rem;
+}
+
+@media only screen and (max-width: 960px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    height: 22rem;
+  }
+
+  .green-header {
+    top: 0;
+  }
+
+  .headline {
+    display: flex;
+    position: relative;
+    width: 16rem;
+    padding: 0.75rem 4rem;
+    margin: 5rem 23rem 4rem 25rem;
+  }
+
+  .headline h1 {
+    font-size: 1.33rem;
+    line-height: 1.2;
+  }
+
+  .messages-con {
+    align-content: center;
+    margin: 0 auto 5rem auto;
+  }
+
 }
